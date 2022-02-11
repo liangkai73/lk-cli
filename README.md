@@ -1,4 +1,4 @@
-# vue-drags
+# lk-vue-cli
 
 ## Project setup
 ```
