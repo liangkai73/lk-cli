@@ -1,0 +1,14 @@
+/ext
+/babel.config.js
+/config.js
+/vue.config.js
+/public/webstatic/fonts/**/*
+*.d.ts
+/src/router/_tmpConfig.ts
+coding_iframe_demo.js
+coding_iframe_demo.min.js
+src/styles/font/iconfont.js
+src/components/ui/navBar1/index.esm.min.js
+src/components/ui/dist/index.esm.min.js
+src/styles/base/font_icon_fass/iconfont.js
+../../../../git/bpui/navbar-view
