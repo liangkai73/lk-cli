@@ -10,11 +10,13 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "febs": "^1.2.10",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-grid-layout": "^2.3.12",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0",
+    "vuedraggable": "^2.24.3",
     "vuex-class": "^0.3.2"
   },
   "devDependencies": {
@@ -37,6 +39,8 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.0.0",
+    "sass-loader": "^7.3.1",
+    "node-sass": "^4.7.2",
     "standard": "^16.0.4",
     "typescript": "~4.1.5",
     "vue-template-compiler": "^2.6.11"

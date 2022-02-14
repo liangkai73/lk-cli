@@ -1,31 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> 
+    <div class="app_inner">
+      <span>APP_MENUE: </span>
+      <router-link to="/draggable">draggable</router-link> <router-view />
     </div>
-    <router-view/>
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import "~@/styles/index.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  padding: 20px;
+  background: #eee;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.app_inner {
+  padding: 20px;
+  min-height: calc(100vh - 40px);
+  background: #fff;
 }
 </style>

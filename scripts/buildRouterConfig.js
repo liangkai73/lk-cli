@@ -43,7 +43,7 @@ pages.forEach((value, index) => {
 
 });
 Promise.all(arrFn).then(res => {
-    routerConfig += '{path:\'/\', component: () => import(\'../pages/login/index.vue\')},\r';
+    // routerConfig += '{path:\'/\', component: () => import(\'../pages/login/index.vue\')},\r';
     routerConfig += '{path:\'*\', component: () => import(\'../pages/errorPage/404.vue\')},\r';
     routerConfig += `]
 /* eslint-enable */
